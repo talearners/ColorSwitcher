@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Coding by TA Learners -->
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+<title>Create A Color Switcher Theme | TA Learners</title>
+
+</head>
+
+<body>
+   <nav class="sidebar">
+      <header>
+         <span class="header-text">
+            TA Learners
+         </span>
+      </header>
+
+      <div class="menu-bar">
+         <div class="menu">
+            <ul class="menu-link">
+               <li class="nav-link">
+                  <a href="#">
+                     <i class="fas fa-home icons"></i>
+                     <span class="text nav-text">Home</span>
+                  </a>
+               </li>
+
+               <li class="nav-link" id="switch">
+               <a>
+                  <i class="fas fa-palette icons"></i>
+                  <span class="text nav-text">Choose Theme</span>
+                  <div id="arrow-icon">
+                     <i class="fas fa-sort-down arrow"></i>
+                  </div>
+               </a>
+            </li>
+            </ul>
+         </div>
+
+         <div class="colorbox" id="colorbox">
+            <button data-color="#fff #4070f4" class="btn blue active"></button>
+            <button data-color="#fff #f79f1f" class="btn orange"></button>
+            <button data-color="#fff #8e44ad" class="btn purple"></button>
+            <button data-color="#fff #3a9943" class="btn green"></button>
+
+            <button data-color="#fff #2193b0-+-#6dd5ed" class="btn gradient1"></button>
+            <button data-color="#fff #dd5e89-+-#f7bb97" class="btn gradient2"></button>
+            <button data-color="#fff #aa076b-+-#61045f" class="btn gradient3"></button>
+            <button data-color="#fff #56ab2f-+-#a8e063" class="btn gradient4"></button>
+         </div>
+      </div>
+   </nav>
+<script src="main.js"></script>
+</body>
+
+</html>

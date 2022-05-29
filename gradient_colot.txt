@@ -1,0 +1,14 @@
+G1 ->  linear-gradient(#2193b0,#6dd5ed);
+GBox>  0 0 0 2px #fff,0 0 0 4px #2193b0;
+
+G2 ->  linear-gradient(#dd5e89,#f7bb97);
+GBox>  0 0 0 2px #fff,0 0 0 4px #dd5e89;
+
+
+G3 ->  linear-gradient(#aa076b,#61045f);
+GBox>  0 0 0 2px #fff,0 0 0 4px #61045f;
+
+
+G4 ->  linear-gradient(#56ab2f,#a8e063);
+GBox>  0 0 0 2px #fff,0 0 0 4px #a8e063;
+

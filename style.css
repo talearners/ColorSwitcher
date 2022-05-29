@@ -1,0 +1,177 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+:root{
+    /* color variable */
+    --body-color:#e4e9f7;
+    --sidebar-color:#fff;
+    --text-color:#707070;
+    --text-logo:#8e44ad;
+
+    /* transition variable */
+    --tran-03:all 0.2s ease;
+    --tran-03:all 0.3s ease;
+    --tran-05:all 0.3s ease;
+    --trans-05:all 0.3s ease;
+}
+::selection{
+    background-color: rgba(3, 3, 3, 0.062);
+}
+body{
+    min-height: 100vh;
+    background-color: var(--body-color);
+    transition: var(--trans-05);
+}
+.sidebar .header-text{
+    font-size: 28px;
+    font-weight: 500;
+    white-space:nowrap;
+    margin-top: 20px;
+    margin-left: 12%;
+    color: var(--text-logo);
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+    background: var(--sidebar-color);
+    transition: var(--tran-05);
+    z-index: 100;
+}
+.sidebar .menu{
+    margin-top: 40px;
+}
+.sidebar .menu-bar{
+    height: calc(100% - 55px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar li{
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.sidebar li a{
+    height: 100%;
+    width: 90%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: var(--tran-03);
+    margin-left: 9px;
+    padding: 10px;
+    color: var(--text-color);
+
+}
+.sidebar li a:hover{
+    box-shadow: 0px 0px 8px 0px #00000047;
+}
+#arrow-icon{
+    margin-left: 6px;
+    transition: var(--tran-03);
+}
+.colorbox{
+    height: 146px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 1px 1px 4px 2px #0000003d;
+    margin-left: 64%;
+    margin-top: 64.5%;
+    position: absolute;
+    border-radius: 5px;
+    display: none;
+    transform: rotate(90deg);
+}
+
+@media screen and (min-width:532px) {
+    .colorbox{
+        position: absolute;
+        transform: rotate(0deg);
+        margin-left: 97%;
+        margin-top: 26%;
+
+
+    }
+}
+
+.btn{
+    display: inline-block;
+    height:40px;
+    width:40px;
+    border:none;
+    border-radius:50px;
+    margin: 0 5px;
+    margin-top:21px;
+    margin-left: 12px;
+    cursor: pointer;
+    background: #4070f4;
+    outline: none;
+    
+}
+
+.btn.blue.active{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #4070f4 ;
+}
+
+.btn.orange{
+    background:orange;
+}
+.btn.orange.active{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px orange ;
+}
+
+.btn.purple{
+    background-color: #8e44ad;
+}
+.btn.purple.active{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #8e44ad ;
+}
+
+.btn.green{
+    background-color: #3a9943;
+}
+.btn.green.active{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3a9943 ;
+}
+
+.btn.gradient1{
+    background: linear-gradient(#2193b0,#6dd5ed);
+}
+.btn.gradient1.active{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #6dd5ed ;
+}
+.btn.btn.gradient2{
+    background: linear-gradient(#dd5e89,#f7bb97);
+}
+
+.btn.gradient2.active{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f7bb97 ;
+}
+.btn.btn.gradient3{
+    background: linear-gradient(#aa076b,#61045f);
+}
+
+.btn.gradient3.active{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #61045f ;
+}
+.btn.btn.gradient4{
+    background:  linear-gradient(#56ab2f,#a8e063);
+}
+
+.btn.gradient4.active{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #56ab2f ;
+}
